@@ -59,6 +59,6 @@ const getGeoOptions = {
     document.querySelector(".weather-info_right").innerHTML += "Wind: " +weatherWind + " m/s<br>";
     document.querySelector(".weather-info_right").innerHTML += "Gust: " +weatherGust + "m/s<br>";
     document.querySelector(".weather-info__icon").style = "background-image: url('http://openweathermap.org/img/wn/"+ weatherIcon +"@2x.png');";
-    document.querySelector(".weather-info__wind-dir").style = "transform: rotate(" + weatherDir + "deg);";
+    document.querySelector(".weather-info__wind-dir").style = "transform: rotate(" + weatherDir + "deg);" + "display: block;";
 })()
   }
