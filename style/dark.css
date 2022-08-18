@@ -1,0 +1,180 @@
+.header-section {
+  background-color: #214545;
+}
+
+.header-section ul li a {
+  color: #f6edd8;
+}
+
+.header-section ul li:nth-child(3) {
+  color: #f6edd8;
+}
+
+.progress-bar__indicator {
+  background-color: #f6edd8;
+}
+
+.slider-section {
+  background-color: #214545;
+}
+
+.slider-section__slider {
+  background-color: #423b24;
+}
+
+.slider__heafer {
+  color: #f6edd8;
+}
+
+h1 {
+  color: #f6edd8;
+}
+
+.about-section {
+  background-color: #423b24;
+}
+
+.about-section__head {
+  color: #f6edd8;
+}
+
+.about-section__separator:before, .about-section__separator:after {
+  background-color: #f6edd8;
+}
+
+.col__headern {
+  color: #f6edd8;
+}
+
+.col__subheader {
+  color: #f6edd8;
+}
+
+.col__separator {
+  background-color: #f6edd8;
+}
+
+.col__discription {
+  color: #f6edd8;
+}
+
+.col__icon:before {
+  background-color: #393a3a;
+}
+
+.portfolio-section {
+  background-color: #542412;
+}
+
+.portfolio-section__separator,
+.portfolio__separator,
+.blog-section__separator,
+.blog__separator {
+  color: #f6edd8;
+}
+.portfolio-section__separator:before, .portfolio-section__separator:after,
+.portfolio__separator:before,
+.portfolio__separator:after,
+.blog-section__separator:before,
+.blog-section__separator:after,
+.blog__separator:before,
+.blog__separator:after {
+  background-color: #f6edd8;
+}
+
+.portfolio-section__head {
+  color: #f6edd8;
+}
+
+.portfolio__filters {
+  color: #f6edd8;
+}
+
+.portfolio__filters li:before {
+  background-color: #f6edd8;
+}
+
+.portfolio__filters_highlighted_false {
+  background-color: #393a3a;
+}
+
+.portfolio__filters_highlighted_true {
+  background-color: #3c7e7e;
+}
+
+.portfolio__items-section > .item {
+  background-color: #423b24;
+  color: #f6edd8;
+}
+
+.item__ico {
+  background-color: #423b24;
+}
+
+.item__image {
+  border-color: #423b24;
+}
+
+.portfolio__filters span ul li:before {
+  background-color: #f6edd8;
+}
+
+.portfolio__separator {
+  background-color: #f6edd8;
+}
+
+.portfolio__browse-all, .portfolio__hide-all {
+  color: #f6edd8;
+}
+
+.blog-section {
+  background-color: #534c46;
+}
+
+.blog-section__head {
+  color: #f6edd8;
+}
+
+.information-section {
+  background-color: #423b24;
+}
+
+.information-section h1 {
+  color: #f6edd8;
+}
+
+.contacts-section {
+  background-color: #1c1e21;
+}
+
+.contacts-section h1 {
+  color: #393a3a;
+}
+
+.contacts-section__head {
+  color: #393a3a;
+}
+
+.contacts-section__separator:before,
+.contacts-section__separator:after {
+  background-color: #393a3a;
+}
+
+.contacts__form {
+  color: #f6edd8;
+}
+
+.contacts__form > input, textarea {
+  background-color: #c5c5c5;
+}
+
+.social-header {
+  color: #393a3a;
+}
+.social-header:after {
+  background-color: #393a3a;
+}
+
+.social-link a {
+  background-color: #393a3a;
+}

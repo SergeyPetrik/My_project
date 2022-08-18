@@ -1,0 +1,55 @@
+.smile-block {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: #393a3a;
+  display: none;
+  z-index: 10;
+}
+
+.smile {
+  width: 0px;
+  height: 0px;
+  border: 2px solid black;
+  background: yellow;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+}
+
+.left-eye, .right-eye {
+  position: absolute;
+  width: 13%;
+  height: 21%;
+  border-radius: 50%;
+  background: black;
+  left: 28%;
+  top: 29%;
+}
+
+.right-eye {
+  left: 57%;
+  top: 29%;
+}
+
+.mouth {
+  width: 70%;
+  height: 60%;
+  border-bottom: 22px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.smile-block h1 {
+  font-size: 48px;
+  text-align: center;
+  font-family: RobotoSlab;
+  color: #f6edd8;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}

@@ -1,0 +1,184 @@
+$bcground-header: #214545;
+$bcground-about: #423b24;
+$bcground-portfolio: #542412;
+$bcground-blog: #534c46;
+$bcground-contacts: #1c1e21;
+$text-color1: #f6edd8;
+$text-color2: #393a3a;
+
+.header-section{
+    background-color: $bcground-header;
+}
+
+.header-section ul li a {
+    color: $text-color1;
+}
+
+.header-section ul li:nth-child(3){
+    color: $text-color1;
+}
+
+.progress-bar__indicator{
+    background-color: $text-color1;
+}
+
+.slider-section{
+    background-color: $bcground-header;
+}
+
+.slider-section__slider{
+    background-color: $bcground-about;
+}
+
+.slider__heafer{
+    color: $text-color1;
+}
+
+h1{
+    color: $text-color1;
+}
+
+.about-section{
+    background-color: $bcground-about;
+}
+
+.about-section__head{
+    color: $text-color1;
+}
+
+.about-section__separator{
+    &:before, &:after{
+        background-color: $text-color1;
+    }
+}
+
+.col__headern{
+    color: $text-color1;
+}
+
+.col__subheader{
+    color: $text-color1;
+}
+
+.col__separator{
+    background-color: $text-color1;
+}
+
+.col__discription{
+    color: $text-color1;
+}
+
+.col__icon:before{
+    background-color: $text-color2;
+}
+
+.portfolio-section{
+    background-color: $bcground-portfolio;
+}
+
+.portfolio-section__separator,
+.portfolio__separator,
+.blog-section__separator,
+.blog__separator{
+    color: $text-color1;
+    &:before, &:after{
+        background-color: $text-color1;
+    }
+}
+
+.portfolio-section__head{
+    color: $text-color1;
+}
+
+.portfolio__filters{
+    color: $text-color1;
+}
+
+.portfolio__filters li:before{
+        background-color: $text-color1;
+}
+
+.portfolio__filters_highlighted_false{
+    background-color: $text-color2;
+}
+
+.portfolio__filters_highlighted_true{
+        background-color: #3c7e7e;
+}
+
+.portfolio__items-section > .item{
+    background-color: $bcground-about;
+    color: $text-color1;
+}
+
+.item__ico{
+    background-color: $bcground-about;
+}
+
+.item__image{
+    border-color: $bcground-about;
+}
+
+.portfolio__filters span ul li:before{
+    background-color: $text-color1;
+}
+
+.portfolio__separator{
+    background-color: $text-color1;
+}
+
+.portfolio__browse-all, .portfolio__hide-all{
+    color: $text-color1;
+}
+
+.blog-section{
+    background-color: $bcground-blog;
+}
+
+.blog-section__head{
+    color: $text-color1;
+}
+
+.information-section{
+    background-color: $bcground-about;
+}
+
+.information-section h1{
+    color: $text-color1;
+}
+
+.contacts-section{
+    background-color: $bcground-contacts;
+}
+
+.contacts-section h1{
+    color: $text-color2;
+}
+
+.contacts-section__head{
+    color: $text-color2;
+}
+
+.contacts-section__separator:before,
+.contacts-section__separator:after {
+    background-color: $text-color2;
+}
+
+.contacts__form{
+    color: $text-color1;
+}
+
+.contacts__form > input, textarea{
+    background-color: #c5c5c5;
+}
+
+.social-header{
+    color:$text-color2;
+    &:after{
+        background-color: $text-color2;
+    }
+}
+
+.social-link a{
+    background-color: $text-color2;
+}
